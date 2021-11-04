@@ -1,0 +1,24 @@
+.explore-cat-card {   
+
+  height: 145px;
+ border-radius: 10px;
+  background-color: #f8f8f8;
+  
+}
+.explore-cat-card p {
+  color: #828282;
+}
+.explore-cat-img {
+  margin-top: 15% !important;
+  width: 85%;
+  height: 45%;
+  margin: auto auto;
+  
+}
+
+.explore-cat-img img {
+  width: 62%;
+  height: 90%;
+  margin: auto auto;
+}
+

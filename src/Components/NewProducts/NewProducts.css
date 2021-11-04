@@ -1,0 +1,22 @@
+.popular-products {
+  width: 80%;
+}
+.popular-productsss {
+  width: 80%;
+  justify-content: space-between;
+}
+.popular-productsss p {
+  color: #828282;
+  font-weight: 500;
+  font-size: 16px;
+}
+.see-all {
+  width: 7%;
+
+}
+.see-all span {
+        font-weight: 500;
+        font-size: 14px;
+        color: #FF5200;
+        font-weight: 500;
+}

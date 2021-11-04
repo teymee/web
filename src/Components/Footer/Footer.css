@@ -1,0 +1,84 @@
+.footer-container {
+  background-color: #37261e;
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around !important;
+  /* width: 80%; */
+  margin: auto auto;
+}
+
+::-webkit-input-placeholder {
+  color: peachpuff;
+  font-size: 12px;
+}
+
+.logo-icon {
+  font-size: 25px;
+  color: #ff5200;
+  font-weight: 600;
+  height: 31px;
+  width: 141px;
+  align-items: center;
+}
+.fs {
+  width: 25%;
+  height: 40px;
+  background-color: green;
+  border-radius: 6px;
+  display: flex;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-evenly !important;
+  width: 80%;
+  align-items: center;
+}
+.p1 {
+  font-size: 14px;
+}
+.p2 {
+  font-size: 12px;
+}
+.subscribe-div {
+  height: 40px;
+}
+.subscribe-btn {
+  background-color: #ff5200;
+  border-radius: 6px;
+  border-color: #ff5200;
+}
+.subscribe-btn p {
+  padding: 4px;
+}
+.about-salesman h3 {
+  font-size: 14px;
+  font-weight: 600;
+}
+.about-salesman p {
+  font-size: 12px;
+  color: white;
+  font-weight: 400;
+
+}
+.secondfooter {
+  background-color: #2c1910;
+  width: 100%;
+}
+.middlemenapp h3 {
+  color: #ff5200;
+  font-size: 14px;
+  font-weight: 600;
+}
+.middlemenapp p {
+  font-size: 12px;
+  font-weight: 400;
+ width: 80%; 
+
+}
+.app-img{
+  width: 135px;
+  height: 86;
+}

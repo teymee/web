@@ -1,0 +1,82 @@
+.category-filter-wrapper {
+    width: 25%;
+   
+  }
+
+  .category-filter {
+    width: 100%;
+    box-shadow: 2px -1px 15px -1px rgba(0, 0, 0, 0.09) !important;
+    border-radius: 7px;
+    margin-top: 48px;
+    
+  }
+
+  .category-filter input{
+      width: 40%;
+  }
+
+
+
+  .container1 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+ 
+  .container1 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+ 
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+
+  .container1:hover input ~ .checkmark {
+    background-color: #FF520020;
+  }
+
+  .container1 input:checked ~ .checkmark {
+    background-color: white;
+    border: 1.2px solid #FF5200;
+  }
+  
+ .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+ 
+  .container1 input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+ 
+  .container1 .checkmark:after {
+       top: 4px;
+      left: 4px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #FF5200;
+  }
+
+

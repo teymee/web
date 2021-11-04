@@ -1,0 +1,53 @@
+nav {
+  display: flex;
+  justify-content: space-around !important;
+  /* width: 50%; */
+  margin: auto auto;
+  
+}
+.sign-up {
+  background-color: #ff5200;
+  border-radius: 6px;
+}
+.sign-up p {
+  padding: 6px, 10px, 6px, 10px;
+}
+.my-cart {
+  font-size: 14px;
+  font-weight: 500;
+
+  /* font-family: Poppins; */
+}
+.cart-icon {
+  font-size: 20px;
+  /* margin-top: 70px; */
+}
+.logo-name {
+  font-size: 25px;
+  color: #ff5200;
+  font-weight: 600;
+  height: 31px;
+  width: 141px;
+}
+.logo-icon {
+  width: 20px;
+  height: 20px;
+}
+.nav-search {
+  width: 35%;
+  height: 40px;
+  background-color: #E5E5E5;
+  border-radius: 6px;
+  display: flex;
+}
+
+.nav-search input{
+  background-color: transparent;
+  width: 90%;
+  outline: none;
+}
+
+.search-icon{
+  margin-top: 10px;
+  width: 15%;
+}

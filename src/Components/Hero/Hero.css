@@ -1,0 +1,48 @@
+.herocontainer {
+  display: flex;
+  justify-content: space-evenly !important;
+  width: 80%;
+  margin: auto auto;
+}
+.textContainer {
+  width: 50%;
+}
+.textContainer h3 {
+  font-size: 70px;
+  font-weight: 600;
+  width: 90% !important;
+}
+.hero-subtext{
+  width: 70% !important;
+  font-size: 17px !important;
+  font-weight: 500 !important;
+  line-height: 35px;
+}
+
+.textContainer p {
+  font-size: 18px;
+  font-weight: 500;
+  width: 75%;
+}
+.textContainer span {
+  color: #ff5200;
+
+}
+.imgillustration {
+  width: 700px;
+  height: 450px;
+}
+.imgContainer {
+  width: 50%;
+}
+.input {
+  outline: none;
+}
+.category-search {
+  width: 65%;
+}
+.category-search p {
+  font-size: 12px;
+  color:  #828282;
+  ;
+}

@@ -1,0 +1,36 @@
+.login {
+  width: 52%;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  height: 200px;
+  margin: auto auto;
+}
+
+.login input {
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 10px;
+  background-color: transparent;
+  outline: none;
+}
+
+.login input::placeholder {
+ 
+  color: #828282;
+  font-size: 14px;
+}
+
+.login button {
+  width:100%;
+  background: #ff5200;
+  border-radius: 5px;
+  color: white;
+  height: 55px;
+  font-size: 13px;
+}
+
+.signup{
+    top: 55%;
+}

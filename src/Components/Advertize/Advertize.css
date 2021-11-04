@@ -1,0 +1,56 @@
+.advertize-container {
+  background: linear-gradient(89.75deg, #ff5200 49.94%, rgba(0, 0, 0, 0) 99.78%),
+    url("../../assets/fish.png"), #ff5200;
+  border-radius: 10px;
+  height: 257px;
+}
+.advertize {
+  width: 80%;
+}
+.app-download {
+  justify-content: center;
+  margin-top: 6%;
+}
+.app-download img {
+  height: 100px;
+}
+
+.app-download p {
+  font-size: 14px;
+  font-weight: 500px;
+  color: #ffffff;
+}
+
+.advertize-text {
+  margin-top: 5%;
+  width: 50%;
+}
+.advertize-text p {
+  font-size: 35px;
+  font-weight: 600;
+}
+.al {
+  width: 40%
+}
+.imglogo {
+  height: 110px;
+}
+.imgcontainer {
+  width: 85%;
+  justify-content: flex-end;
+}
+.advertize-btn {
+  background-color: #FF9533;
+  border-radius: 6px;
+  border-color: #ff5200;
+}
+.advertize-div {
+  height: 20px;
+}
+.advertize-btn p {
+  padding: 2px;
+  font-size: 16px;
+}
+.adv-cont {
+  margin-left: 72px;
+}
