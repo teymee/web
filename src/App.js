@@ -8,13 +8,17 @@ import Home from "./Pages/Home/Home";
 import NavBar from "./Components/NavBar/NavBar";
 import Footer from "./Components/Footer/Footer";
 import AuthLayout from "./Pages/Authentication/AuthLayout/AuthLayout";
+import Layout from "./Pages/Admin/Admin-Layout/Layout";
+import Dashboard from "./Pages/Admin/Dashboard/Dashboard";
+import BeforeActivation from "./Pages/Admin/Account/BeforeActivation/BeforeActivation";
+import Account from "./Pages/Admin/Account/Account Tab/Account";
 
 function App() {
 
 
   return (
     <Router>
-      <NavBar />
+      {/* <NavBar /> */}
       <Switch>
         <Route path="/" exact>
           <Home />
@@ -30,8 +34,30 @@ function App() {
         <Route path="/login" exact>
           <AuthLayout />
         </Route>
+
+        <Route path="/admin" exact>
+        <Layout/>
+        </Route>
+
+        <Route path="/dashboard" exact>
+        <Dashboard/>
+        </Route>
+
+        <Route path="/activation" exact>
+        <BeforeActivation/>
+        </Route>
+
+        <Route path="/account" exact>
+        <Account/>
+        </Route>
+
+        <Route path="/activation" exact>
+        <BeforeActivation/>
+        </Route>
+
       </Switch>
-      <Footer />
+
+      {/* <Footer /> */}
     </Router>
   );
 }

@@ -1,0 +1,126 @@
+.admin-layout {
+  background-color: #e5e5e5;
+  height: 110vh;
+  position: relative;
+}
+
+.admin-nav {
+  height: 9%;
+  background-color: white;
+}
+
+.admin-nav nav {
+  width: 95%;
+  height: 100%;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.admin-nav .logo-name {
+  margin-top: -20px !important;
+  position: absolute;
+  left: 0 !important;
+}
+.admin-nav nav img {
+  height: 35px;
+}
+
+.admin-nav nav span {
+  margin-left: -10px;
+}
+
+.admin-initials {
+  color: #ff5200;
+  background-color: #ffc2aa95;
+  padding: 8px 7px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.admin-nav-mid {
+  padding: 20px;
+  margin-left: 100px;
+  width: 40%;
+}
+
+.admin-nav-mid input {
+  background-color: transparent;
+  outline: none;
+  font-size: 12px;
+  width: 80%;
+}
+
+.admin-nav h4 {
+  font-weight: bold;
+}
+.admin-search {
+  margin-left: 50px;
+  border: 1px solid #9a9ab0;
+  padding: 2px 15px;
+  width: 100% !important;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.admin-icon {
+  margin-top: 7px !important;
+  color: #9a9ab0;
+}
+
+.admin-nav-last {
+  width: 20%;
+}
+.admin-nav-last h4 {
+  margin-left: -25% !important;
+}
+
+.admin-sidebar {
+  position: absolute;
+  left: 0;
+  height: 90%;
+  background-color: white;
+  width: 20%;
+  top: 9.2%;
+}
+
+.admin-sidebar .container {
+  width: 60%;
+  margin: auto auto;
+  margin-top: 20%;
+  margin-bottom: 10%;
+}
+
+.admin-sidebar li {
+  list-style: none;
+  color: white;
+  padding: 15px 15px;
+  color: #999999;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.option-active {
+  background-color: #ff5200;
+  border-radius: 8px;
+  color: white !important;
+}
+.admin-sidebar li svg {
+  margin-top: -2px;
+  margin-right: 15px;
+}
+
+.admin-content {
+  /* position: absolute; */
+  margin-left: 23%;
+  margin-top: 4%;
+  width: 75%;
+  /* margin: auto auto; */
+  height: 100vh;
+}
+@media only screen and (max-width: 600px) {
+}

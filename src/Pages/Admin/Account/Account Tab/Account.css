@@ -1,0 +1,56 @@
+.account-details {
+  background-color: white;
+  border-radius: 6px;
+}
+
+.account-detail {
+  padding-bottom: 90px;
+}
+.account-detail h4 {
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.heed {
+  border-bottom: 1px solid #00000040;
+}
+.heed span {
+  color: #ff5200;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.account-detail h5 {
+  padding-top: 30px;
+}
+
+.account-detail h6,
+.account-detail p {
+  color: #828282;
+  font-size: 14px;
+}
+.account-detail .showcase{
+      display: none;
+}
+
+.account-edit input , .delivery-address-edit textarea{
+      width: 100%;
+      background-color: #FFEFE8;
+      padding: 10px;
+      border-radius: 5px;
+      outline: none;
+     margin-bottom: 20px;
+}
+
+.account-edit input:focus, .delivery-address-edit textarea:focus{
+      border:2px solid#ff5200;
+}
+
+.account-edit  input[type=password]{
+      width: 45%;
+      padding-left: 30px;
+}
+
+.delivery-address-showcase{
+      display: none;
+}

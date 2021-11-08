@@ -1,0 +1,30 @@
+.second-section{
+      margin-top: 50px;
+}
+
+.section-one, .section-two, .section-three{
+      background: #FFFFFF;
+      border-radius: 5px;
+}
+
+.section-one h4{
+      border-bottom: 1px solid #00000040;
+
+}
+.subsection-one h2{
+      font-size: 25px;
+      font-weight: bold;
+}
+.section-two{
+      background-color: white;
+}
+.section-three{
+      background-color: white;
+}
+
+.section-container{
+      width: 72%;
+      
+      margin: auto auto;
+}
+
