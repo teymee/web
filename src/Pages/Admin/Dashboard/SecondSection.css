@@ -7,24 +7,23 @@
       border-radius: 5px;
 }
 
-.section-one h4{
+.section-one h4,  .section-two h4, .section-three h4{
       border-bottom: 1px solid #00000040;
-
+      font-weight: 700;
 }
 .subsection-one h2{
       font-size: 25px;
       font-weight: bold;
 }
-.section-two{
-      background-color: white;
-}
-.section-three{
-      background-color: white;
+
+.section-three h1{
+     font-size: 24px;
+      font-weight: 700;
 }
 
+
 .section-container{
-      width: 72%;
-      
+      width: 80%;
       margin: auto auto;
 }
 

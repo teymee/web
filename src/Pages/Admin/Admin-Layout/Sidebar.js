@@ -7,51 +7,65 @@ import { CreditCardIcon } from "@heroicons/react/outline";
 import { CalendarIcon } from "@heroicons/react/outline";
 import { ChatIcon } from "@heroicons/react/outline";
 import { ShoppingBagIcon } from "@heroicons/react/outline";
+import { NavLink } from "react-router-dom";
 
 function Sidebar() {
   return (
     <div className="admin-sidebar">
       <div className="container ">
-        <li className="option-active">
-          <UserCircleIcon className="h-6 w-6  search-icon inline-block   " />
-          My Account
+        <li className="">
+          <NavLink to="/account" activeClassName="option-active">
+            <UserCircleIcon className="h-6 w-6  search-icon inline-block   " />
+            My Account
+          </NavLink>
         </li>
 
         <li>
-          {" "}
-          <ChartBarIcon className="h-6 w-6  search-icon inline-block   " />
-          Dashboard
+          <NavLink to="/dashboard" exact activeClassName="option-active">
+            {" "}
+            <ChartBarIcon className="h-6 w-6  search-icon inline-block   " />
+            Dashboard
+          </NavLink>
         </li>
 
         <li>
-          {" "}
-          <ShoppingCartIcon className="h-6 w-6  search-icon inline-block   " />
-          Orders
+          <NavLink to="/dashboar" exact activeClassName="option-active">
+            {" "}
+            <ShoppingCartIcon className="h-6 w-6  search-icon inline-block   " />
+            Orders
+          </NavLink>
         </li>
 
         <li>
-          {" "}
-          <CreditCardIcon className="h-6 w-6  search-icon inline-block   " />
-          
-          Transactions
+          <NavLink to="/dashboa" exact activeClassName="option-active">
+            {" "}
+            <CreditCardIcon className="h-6 w-6  search-icon inline-block   " />
+            Transactions
+          </NavLink>
         </li>
 
         <li>
-          {" "}
-          <ShoppingBagIcon className="h-6 w-6  search-icon inline-block   " />
-          My Product
+          <NavLink to="/dashb" exact activeClassName="option-active">
+            {" "}
+            <ShoppingBagIcon className="h-6 w-6  search-icon inline-block   " />
+            My Product
+          </NavLink>
         </li>
 
         <li>
-          {" "}
-          <CalendarIcon className="h-6 w-6  search-icon inline-block   " />
-         Promotions
+          <NavLink to="/dashboar" exact activeClassName="option-active">
+            {" "}
+            <CalendarIcon className="h-6 w-6  search-icon inline-block   " />
+            Promotions
+          </NavLink>
         </li>
 
         <li>
-          {" "}
-          <ChatIcon className="h-6 w-6  search-icon inline-block   " />
-          Reviews
+          <NavLink to="/dashboarhd" exact activeClassName="option-active">
+            {" "}
+            <ChatIcon className="h-6 w-6  search-icon inline-block   " />
+            Reviews
+          </NavLink>
         </li>
       </div>
     </div>
