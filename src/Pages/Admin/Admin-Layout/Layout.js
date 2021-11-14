@@ -11,6 +11,7 @@ function AdminLayout(props) {
       <div className="admin-content">{props.children}</div>
     </div>
   );
+  
 }
 
-export default AdminLayout
+export default AdminLayout  
