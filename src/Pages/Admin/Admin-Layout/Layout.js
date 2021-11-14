@@ -13,4 +13,4 @@ function AdminLayout(props) {
   );
 }
 
-export default AdminLayout;
+export default AdminLayout
